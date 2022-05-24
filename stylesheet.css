@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url('images/fullSizeNate.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img{
+  border-radius: 50px;
+}
+
+.header{
+  font-family: 'BIZ UDGothic', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  display: flex;
+  padding-left: 20px;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+
+  font-family: 'BIZ UDGothic', sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 32px;
+  font-weight: 900;
+  color: white;
+}
+
+#discographyBox{
+  width:347px;
+  height: 430px;
+  background: #FFFFFF;
+  border-radius: 50px;
+    opacity: 0.7;
+
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+#compositionBox{
+  width:588px;
+  height: 367px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  opacity: 0.7;
+
+  font-family: 'Anek Devanagari', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+#item{
+  opacity: 1.0;
+}
+
+footer{
+    font-family: 'BIZ UDGothic', sans-serif;
+    color: white;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
